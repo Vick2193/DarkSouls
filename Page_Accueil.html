@@ -7,19 +7,22 @@
     <link href="pageAccueil.css" rel="stylesheet">
 </head>
 <body>
-    <table>
-        <thead>
-            <th><img src="Components/Logo.png" alt="Logo Dark Souls" /></th>
-            <th><h1>Dark Souls Fan Page</h1></th>
-            <th>Compte</th>
-        </thead>
-    </table>
-    <table>
-        <thead>
-            <th><input list=""
-            <datalist></datalist>
-            </th>
-        </thead>
-    </table>
+    <div class="hautDePage">
+        <img src="Components/Logo.png" alt="Logo Dark Souls" />
+        <h1>Dark Souls Fan Page</h1>
+        Compte
+    </div>
+
+    <div class="menu">
+        <label for="category">Catégories</label>
+        <input list="catégories">
+        <datalist id="catégories">
+            <option value="Boss"></option>
+            <option value="Builds"></option>
+            <option value="Secrets"></option> 
+        </datalist>
+        À propos
+        Contact
+    </div>
 </body>
 </html>
