@@ -1,0 +1,12 @@
+.header{
+    display:flex;
+    justify-content: space-evenly;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+.cate{
+    margin:0 45px;
+}
