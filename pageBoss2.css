@@ -1,6 +1,8 @@
 .header{
     display:flex;
     justify-content: space-evenly;
+    background-image: url('Repertoir-Images_Marc/Haut-de-Page-Boss/Nito-Photo-Haut-de-page.jpg');
+    
 }
 .menu{
     display: flex;
@@ -9,4 +11,42 @@
 }
 .cate{
     margin:0 45px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.contenu{
+    background-color: #2A0401 ;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.Boss {
+    background-color: #030303;
+    border: #883D2C solid;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.backgroundTaurus {
+    background-color: black;
+    border: #883D2C solid;
+    
+    
+}
+
+.titre{
+    font-size: 1.5em;
+}
+
+.photoBoss {
+    margin: 0 20px;
+}
+
+.source{
+    margin: 0 20px;
 }
