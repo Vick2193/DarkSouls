@@ -1,0 +1,10 @@
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url('Components/Image\ haut\ page\ accueil.webp');
+}
+
+.menu {
+    display:flex;
+    justify-content: center;
+}
