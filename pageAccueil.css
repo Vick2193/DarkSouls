@@ -42,7 +42,6 @@ h2 {
 footer {
     background: linear-gradient(black, #4F4726);
     display:flex;
-    justify-content: center;
     flex-direction: column;
 }
 
