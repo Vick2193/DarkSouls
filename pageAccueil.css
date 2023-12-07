@@ -1,3 +1,12 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
 .header {
     display:flex;
     justify-content: space-evenly;
@@ -7,4 +16,22 @@
 .menu {
     display:flex;
     justify-content: center;
+    background: linear-gradient(#BFAB5C, black);
+}
+
+.news {
+    background-color: #4F4726;
+}
+
+.fanart {
+    background-color: #4F4726;
+}
+
+.summary {
+    background: linear-gradient(#4F4726, black);
+    
+}
+
+.contact {
+    background: linear-gradient(black, #4F4726);
 }
