@@ -7,24 +7,34 @@ h2 {
     color: white;
 }
 
+aside {
+    width: 30%;
+    float: right;
+    margin: 5%
+}
 .header {
     display:flex;
     justify-content: space-evenly;
-    background-image: url('Components/Image\ haut\ page\ accueil.webp');
+    background-image: url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
+    background-repeat: no-repeat;
+    background-size: 70%;
 }
 
 .menu {
     display:flex;
     justify-content: center;
+    width: 70%;
     background: linear-gradient(#BFAB5C, black);
 }
 
 .news {
+    width: 50%;
     background-color: #4F4726;
 }
 
 .fanart {
     background-color: #4F4726;
+    width: 50%;
 }
 
 .summary {
