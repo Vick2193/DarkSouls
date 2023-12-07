@@ -1,12 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+body{
+    font-family: Uncial Antiqua;
+}
+
 .header{
     display:flex;
     justify-content: space-evenly;
-    background-image: url('Repertoir-Images_Marc/Haut-de-Page-Boss/Nito-Photo-Haut-de-page.jpg');
+    background-image: url('Répertoire-Image/Haut-de-Page-Boss/Nito-Photo-Haut-de-page.jpg');
     
 }
 .menu{
     display: flex;
     justify-content: center;
+    background: linear-gradient(180deg, #460702 0%, #000 100%);
+    width: fit-content;
     
 }
 .cate{
@@ -18,18 +26,26 @@ body {
     color: white;
 }
 
-.contenu{
+.ListeBoss{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.contenu{ /* boite rouge boss*/
     background-color: #2A0401 ;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    width: 50%;
+    margin: 50px 0;
 }
 .Boss {
     background-color: #030303;
     border: #883D2C solid;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     align-items: center;
+    margin: 50px 20px;
 }
 
 .backgroundTaurus {
@@ -48,5 +64,58 @@ body {
 }
 
 .source{
+    width: 80%;
     margin: 0 20px;
+    font-size: 10px;
+}
+
+.colone{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.statBoss{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.infoBoss{
+     display: flex;    
+      justify-content: center;
+}
+
+.descriptionBoss h3{
+    font-size: 2.125em;
+}
+
+.descriptionBoss{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.descriptionBoss p{
+    font-size: 1.125em;
+}
+h1{
+    text-align: center;
+}
+.stratégie h3{
+    font-size: 2.125em;
+}
+
+.stratégie{
+    background-color: #030303;
+    border: #883D2C solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+.stratégie p{
+    font-size: 1.125em;
+    margin: 20px 20px;
 }
