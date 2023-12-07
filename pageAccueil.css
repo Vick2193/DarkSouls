@@ -7,11 +7,6 @@ h2 {
     color: white;
 }
 
-aside {
-    width: 30%;
-    float: right;
-    margin: 5%
-}
 .header {
     display:flex;
     justify-content: space-evenly;
@@ -39,9 +34,13 @@ aside {
 
 .summary {
     background: linear-gradient(#4F4726, black);
+    width: 30%;
+    float: right;
     
 }
 
-.contact {
+footer {
     background: linear-gradient(black, #4F4726);
+    display:flex;
+    justify-content: center;
 }
