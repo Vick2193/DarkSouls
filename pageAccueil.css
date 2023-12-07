@@ -23,18 +23,18 @@ h2 {
 }
 
 .news {
-    width: 50%;
+    width: 48%;
     background-color: #4F4726;
 }
 
 .fanart {
     background-color: #4F4726;
-    width: 50%;
+    width: 48%;
 }
 
 .summary {
     background: linear-gradient(#4F4726, black);
-    width: 30%;
+    width: 48%;
     float: right;
     
 }
@@ -43,4 +43,6 @@ footer {
     background: linear-gradient(black, #4F4726);
     display:flex;
     justify-content: center;
+    flex-direction: column;
 }
+
