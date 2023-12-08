@@ -4,12 +4,23 @@ body{
     font-family: Uncial Antiqua;
 }
 
-.header{
+.header {
     display:flex;
     justify-content: space-evenly;
-    background-image: url('Répertoire-Image/Haut-de-Page-Boss/Nito-Photo-Haut-de-page.jpg');
-    
+    background-repeat: no-repeat;
 }
+
+.header img {
+   
+    
+
+}
+
+.header a{
+    display: flex;
+
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -28,7 +39,7 @@ body {
 
 .ListeBoss{
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column nowrap; 
     align-items: center;
 }
 .contenu{ /* boite rouge boss*/
