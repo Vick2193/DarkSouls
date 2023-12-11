@@ -13,6 +13,7 @@ body {
 h1 {
     text-align: center;
     font-family: uncialAntiqua;
+    font-size:  50px;
 
 }
 
@@ -20,6 +21,7 @@ h2 {
     color: white;
     font-family: uncialAntiqua;
     text-align: left;
+    font-size: 38px;
 }
 
 h5 {
@@ -50,20 +52,26 @@ h6 {
 }
 
 .news {
-    width: 48%;
+    width: 38%;
     background-color: #4F4726;
+    padding: 1px 3%;
+    margin-left: 3%;
 }
 
 .fanart {
     background-color: #4F4726;
-    width: 48%;
+    width: 38%;
+    padding: 1px 3%;
+    margin-top: 1%;
+    margin-left: 3%;
 }
 
 .summary {
     background: linear-gradient(#4F4726, black);
-    width: 48%;
+    width: 42%;
     float: right;
-    font
+    padding: 1px 2%;
+    margin-right: 3%;
 }
 
 footer {
