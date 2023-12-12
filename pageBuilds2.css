@@ -1,5 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 body{
     font-family: Uncial Antiqua;
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display:flex;
+    justify-content: space-evenly;
+    background-repeat: no-repeat;
+    background-image: url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: right top;
+}
+
+.headerH1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.header a{ /*lien "compte" en haut de page situé à en haut à droite*/
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #BFAB5C 0%, #000 100%);
+    width: 70%;
+    margin-left: 20%;
+    align-items: center;
+}
+
+.cate{  /*classe qui sert a espacer les liens entre eux*/
+    margin: 0 45px; 
+}
+
+.Titre{
+    font-size: 1.5em;
+}
+
+.ListeBuilds{
+    display: flex;
+    flex-flow: column nowrap; 
+    align-items: center;
+}
+
+.contenu{
+    background-color: #4F4726 ;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+    margin: 50px 0;
+}
+
+.Build {
+    background-color: #030303;
+    border: #883D2C solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 50px 20px;
+}
+
+.photoPyromancien{
+    margin: 0 20px;
+}
+
+.Source{
+    width: 80%;
+    margin: 0 20px;
+    font-size: 10px;
+}
+
+.statBuild{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.infoBuild{
+    display: flex;    
+      justify-content: center;
+}
+
+.description{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.description h3{
+    font-size: 2.125em;
+}
+
+.description p{
+    font-size: 1.125em;
+}
+
+h1{
+    text-align: center;
+}
+
+.titre h3{ /* Taille de la police du titre de la classe "Pure Pyromencien"*/
+    font-size: 1.1em;
+}
+
+.colone{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+
 }
 
