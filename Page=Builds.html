@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Builds</title>
+    <link href="pageBuilds2.css" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="body">
+    <header>
+        <div class="header">
+            <img src="Répertoire-Image/Logo.png" alt="Logo Dark Souls" width="150px" height="150px" />
+            <h1 class="headerH1">Dark Souls Fan Page</h1>
+            <a>Compte</a>
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <label class="cate" for="categories">Catégories</label>
+            <input class="cate" list="categories" type="">
+            <a>À propos</a>
+            <a>Contact</a>
+            <datalist id="cate" id="categories"> <!--Fix le menu deroulant pour les categories-->
+                <option value="Boss"></option>
+                <option value="Builds"></option>
+                <option value="Secrets"></option>
+            </datalist>
+        </div>
+    </nav>
+    <div id="Titre">
+        <h1>Les Builds</h1>
+    </div>
+    <!--Section présentation des 3 builds-->
+    <main>
+        <div class="ListeBuilds">
+            <!--Section Build Pyromancien-->
+            <div class="contenu">
+                <div class="infoBuild">
+                    <div class="Build">
+                        <div class="titre">
+                            <h3>Pure Pyromancien</h3>
+                        </div>
+                        <div class="photoPyromancien">
+                            <img src="Répertoire-Image/Photos-Builds/Portraits/dark_souls___pyromancer_by_pizza_surgeon_d5annpj-375w-2x.jpg"
+                                alt="Pyromancien" width="150px" height="200px">
+
+                        </div>
+                        <div class="Source">
+                            <p>Source: https://www.deviantart.com/pizza-surgeon/art/Dark-Souls-Pyromancer-320230855</p>
+                        </div>
+                        <div class="statBuild">
+                            <div class="colone">
+                                <p>Constitution : 23</p>
+                                <p>Endurance : 30 </p>
+                                <p>Force: 14</p>
+                                <p>Dexterité : 45 </p>
+                                <p>Intelligence : 10</p>
+                                <p>Foi : 8</p>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h3>Description</h3>
+                            <p>Ce build ce concentre principalement sur les
+                                sorts de la pyromancie. Vous devez utiliser
+                                vos boules de feu et votre tempête de feu
+                                sur des groupes de personnes. Aussi, utilisez
+                                votre Grande Combustion, Uchigatana et
+                                Dragon Crest Shield sur les personnes
+                                relativement rapides. Fouet de feu doit
+                                toujours être considérés comme des
+                                techniques de dernier recour. Finalement,
+                                nous vous conseillons de toujours avoir une
+                                épée et un bouclier, car les sorts de
+                                pyromancie sont très couteux en mana.</p>
+                        </div>
+                        <div class="tableau">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
