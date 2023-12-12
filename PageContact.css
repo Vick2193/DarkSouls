@@ -44,24 +44,25 @@ h4 {
     margin: 0 45px; 
 }
 
- select, option { 
+select, option { 
 	font-size: 18px;
     padding: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     background: linear-gradient(#BFAB5C, black);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
- }
-
- .info { 
-    float: left;
-    font-size: 14px;
- }
-
-.logo { 
-    margin: 0 55px;
 }
 
-.at { 
-    margin: 0 55px;
+.info { 
+    float: left;
+    font-size: 14px;
+}
+
+.at {
+    margin: 0 60px;
+}
+
+.email { 
+    margin: 35px;
+    font-size: 24px;
 }
