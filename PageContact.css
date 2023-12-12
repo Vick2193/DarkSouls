@@ -52,3 +52,16 @@ h4 {
     background: linear-gradient(#BFAB5C, black);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
  }
+
+ .info { 
+    float: left;
+    font-size: 14px;
+ }
+
+.logo { 
+    margin: 0 55px;
+}
+
+.at { 
+    margin: 0 55px;
+}
