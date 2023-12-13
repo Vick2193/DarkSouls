@@ -2,7 +2,6 @@ body {
     background-color: black;
     color: white;
     font-size: 20px;
-    text-align: center;
 }
 
 @font-face {
@@ -56,13 +55,35 @@ select, option {
 .info { 
     float: left;
     font-size: 14px;
+    padding: 0 20px;
 }
 
-.at {
+.logo, .at {
     margin: 0 60px;
 }
 
 .email { 
-    margin: 35px;
+    margin: 30px 60px;
     font-size: 24px;
 }
+
+.form {
+    text-align: center;
+    font-size: 36px;
+    font-family: uncialAntiqua;
+}
+
+input[type="name"], input[type="email"] {
+    margin: 15px;
+    padding: 5px; 
+    padding-right: 350px;
+    text-align: left;
+}
+
+textarea {
+    margin: 15px;
+    padding-bottom: 70px;
+    padding-right: 300px;
+}
+
+
