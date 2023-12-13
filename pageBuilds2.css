@@ -24,16 +24,16 @@ body{
     display: flex;
 }
 
-.menu{
+.menu{ /*Section pour la barre de navigation.*/
     display: flex;
     justify-content: center;
     background: linear-gradient(180deg, #BFAB5C 0%, #000 100%);
     width: 70%;
-    margin-left: 20%;
     align-items: center;
+    margin: 2% 12%;
 }
 
-.cate{  /*classe qui sert a espacer les liens entre eux*/
+.category{  /*classe qui sert a espacer les liens entre eux*/
     margin: 0 45px; 
 }
 

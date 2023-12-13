@@ -18,15 +18,14 @@
     </header>
     <nav>
         <div class="menu">
-            <label class="cate" for="categories">Catégories</label>
-            <input class="cate" list="categories" type="">
-            <a class="cate">À propos</a>
-            <a class="cate" href="Page-Contact.html">Contact</a>
-            <datalist id="cate" id="categories"> <!--Fix le menu deroulant pour les categories-->
-                <option value="Boss"></option>
-                <option value="Builds"></option>
-                <option value="Secrets"></option>
-            </datalist>
+            <select name="category" class="category" id="category-select">
+                <option value="">Catégories</option>
+                <option value="Boss">Boss</option>
+                <option value="Builds">Builds</option>
+                <option value="Secrets">Secrets</option> 
+            </select>
+            <a class="category">À propos</a>
+            <a class="category" href="Page-Contact.html">Contact</a>
         </div>
     </nav>
     <div id="Titre">
@@ -395,7 +394,8 @@
 
                                 <td>Grâce protectrice <img
                                         src="Répertoire-Image/Photos-Builds/Équipements/Inquisiteur/Anneau_Grace_protectrice.png"
-                                        alt="image dun anneau nommée Grâce protectrice" width="50px" height="50px" /></td>
+                                        alt="image dun anneau nommée Grâce protectrice" width="50px" height="50px" />
+                                </td>
 
                                 <td>Colère des Dieux <img
                                         src="Répertoire-Image/Photos-Builds/Sorts/miracle/Wrath_of_the_Gods.png"
@@ -408,7 +408,7 @@
                                         alt="image Jambières de grâce" width="50px" height="50px" />
                                 </td>
                                 <td>
-                                    Aîné solaire  <img
+                                    Aîné solaire <img
                                         src="Répertoire-Image/Photos-Builds/Équipements/Inquisiteur/Aîné_Solaire.png"
                                         alt="image Anneau Aîné solaire " width="50px" height="50px" />
                                 </td>
