@@ -18,19 +18,17 @@
         
 
     </header>
-    <nav>
-        <div class="menu">
-            <label class="cate" for="categories">Catégories</label>
-            <input class="cate" list="categories" type="">
-            <a>À propos</a>
-            <a href="Page-Contact.html">Contact</a>
-            <datalist id="cate" id="categories">
-                <option value="Boss"></option>
-                <option value="Builds"></option>
-                <option value="Secrets"></option>
-            </datalist>
-        </div>
-    </nav>
+    <div class="menu">
+        <select name="category" class="category" id="category-select">
+            <option value="">Catégories</option>
+            <option value="Boss">Boss</option>
+            <option value="Builds">Builds</option>
+            <option value="Secrets">Secrets</option> 
+        </select>
+        <a class="category">À propos</a>
+        <a class="category" href="Page-Contact.html">Contact</a>
+    </div>
+</nav>
     <div id="Titre">
         <h1>Presentation des boss populaires</h1>
     </div>
@@ -47,7 +45,7 @@
                         </div>
 
                         <div class="photoBoss">
-                            <img src="Répertoire-Image/Photos-Boss/taurusDemon.jpg" alt="taurusDemon" width="150px"
+                            <img src="Répertoire-Image/Photos-Boss/taurusDemon.jpg" alt="taurusDemon" width="350px"
                                 height="200px">
                         </div>
                         <div class="source">

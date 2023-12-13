@@ -29,11 +29,11 @@ body{
     justify-content: center;
     background: linear-gradient(180deg, #BFAB5C 0%, #000 100%);
     width: 70%;
-    margin-left: 20%;
     align-items: center;
+    margin: 2% 12%;
    
 }
-.cate{
+.category{
     margin:0 45px;
 }
 
@@ -48,7 +48,7 @@ body {
     align-items: center;
 }
 .contenu{ /* boite rouge boss*/
-    background-color: #2A0401 ;
+    background-color: #4F4726 ;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
