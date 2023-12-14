@@ -10,7 +10,7 @@ body {
     src: url(Uncial_Antiqua/UncialAntiqua-Regular.ttf);
 }
 
-h1 {
+h1{
     text-align: center;
     font-family: uncialAntiqua;
     font-size:  50px;
