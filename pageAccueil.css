@@ -115,3 +115,8 @@ footer {
     align-items: center;
 }
 
+.imagesFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
