@@ -110,23 +110,49 @@ a:visited {
     margin: 0 45px; 
 }
 
- select, option { 
+select, option { 
 	font-size: 18px;
     padding: 3px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     background: linear-gradient(#BFAB5C, black);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
- }
+}
 
- h2 {
+input[type="username"], input[type="email"], input[type="password"] {
+    margin: 5px;
+    padding: 10px; 
+    padding-right: 250px;
+}
+
+input[type="submit"]{
+    margin: 5px;
+    padding: 10px 100px;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-family: uncialAntiqua;
+    font-size: 38px;
+}
+
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
     color: white;
     font-family: uncialAntiqua;
     text-align: left;
     font-size: 38px;
 }
 
- footer {
+
+
+footer {
     background: linear-gradient(black, #4F4726);
     display:flex;
     flex-direction: column;
