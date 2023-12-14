@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
 body{
     font-family: Uncial Antiqua;
-    background-color: black;
-    color: white;
 }
 
 .header {
     display:flex;
     justify-content: space-evenly;
     background-repeat: no-repeat;
-    background-image: url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
+    background-image: linear-gradient(to right, black, rgba(255,0,0,0.0)),  url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: right top;
@@ -155,4 +153,8 @@ footer{
 .imagesFooter{
     display: flex;
     justify-content: space-between;
+}
+body {
+    background-color: black;
+    color: white;
 }
