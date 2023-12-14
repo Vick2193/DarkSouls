@@ -62,7 +62,7 @@ body {
     border: #883D2C solid;
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
+    align-items:center;
     margin: 50px 20px;
 }
 
@@ -79,9 +79,23 @@ h1{
     text-align: center;
 }
 
+.stratégie2 {
+    background-color: #030303;
+    border: #883D2C solid;
+    display: flex;
+    flex-flow: column wrap;
+    align-items:center;
+    margin: 50px 20px;
+}
+
 footer{
     background: linear-gradient(black, #4F4726);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.imagesFooter{
+    display: flex;
+    justify-content: space-between;
 }
