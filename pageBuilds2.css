@@ -33,6 +33,16 @@ body{
     margin: 2% 12%;
 }
 
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
 .category{  /*classe qui sert a espacer les liens entre eux*/
     margin: 0 45px; 
 }
