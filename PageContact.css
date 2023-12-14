@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: white;
     font-size: 20px;
+    text-align: center;
 }
 
 @font-face {
@@ -22,7 +23,7 @@ h4 {
 .header {
     display:flex;
     justify-content: space-evenly;
-    background-image: 
+    background-image:
     linear-gradient(to right, black, rgba(255,0,0,0.0)),
     url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
     background-repeat: no-repeat;
