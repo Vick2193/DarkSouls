@@ -7,7 +7,7 @@ body{
     display:flex;
     justify-content: space-evenly;
     background-repeat: no-repeat;
-    background-image: url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
+    background-image: linear-gradient(to right, black, rgba(255,0,0,0.0)),  url('Répertoire-Image/Image\ haut\ page\ accueil.webp');
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: right top;
