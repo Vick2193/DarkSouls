@@ -33,6 +33,16 @@ body{
    
 }
 
+a:link {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
 .category{
     margin:0 45px;
 }
