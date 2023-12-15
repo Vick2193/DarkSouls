@@ -123,22 +123,6 @@ select, option {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 
-/*Pour la section d'informations*/
-.info { 
-    float: left;
-    font-size: 14px;
-    padding: 0 20px;
-}
-
-.logo, .at {
-    margin: 0 60px;
-}
-
-.email { 
-    margin: 30px 60px;
-    font-size: 24px;
-}
-
 /*pour le formulaire*/
 .form {
     text-align: center;
@@ -159,4 +143,23 @@ textarea {
     padding-right: 300px;
 }
 
+/*pour le bas de page*/
+h2 {
+    color: white;
+    font-family: uncialAntiqua;
+    text-align: left;
+    font-size: 38px;
+}
+
+footer {
+    background: linear-gradient(black, #4F4726);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagesFooter{
+    display: flex;
+    justify-content: space-between;
+}
 
